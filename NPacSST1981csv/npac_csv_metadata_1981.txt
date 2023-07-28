@@ -1,0 +1,441 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: USGS Western Fisheries Research Center and US EPA Western Ecology Division, Pacific Coastal Ecology Branch
+      Publication_Date: 201012
+      Title: North Pacific Nearshore Sea Surface Temperature (SST) csv format 1981
+      Geospatial_Data_Presentation_Form: Maps and Data
+      Publication_Information:
+        Publication_Place: Newport, OR, USA
+        Publisher: U.S. Geological Survey National Biological Information Infrastructure (NBII)
+  Description:
+    Abstract: The Sea Surface Temperature (SST) data of the nearshore region of the North Pacific show temperature ranges in degrees C using points whose locations correspond to the centroids of AVHRR Pathfinder version 5 monthly, global, 4 km data set (PFSST V50). The pathfinder rasters are available from the Physical Oceanography Distributed Active Archive Center (PO.DAAC), hosted by NASA JPL.  The data points in this dataset lie within a 20 km buffer from the GSHHS (Global Self-consistent, Hierarchical, High-resolution Shoreline) coastline. The GSHHS vector data are available from the National Geophysical Data Center (NGDC). Furthermore, each point in the SST dataset is categorized by the ecoregion in which it is located. This classification is based on the Marine Ecosystems Of the World (MEOW) developed and distributed by The Nature Conservancy. These data have been QA'd in that we have selected only data values with associated quality flags of 4-7. No data and bad data are given the NoData value = -9999.
+    Purpose: The North Pacific nearshore temperature dataset was developed for the purpose of examining SST values and patterns recorded since 1981 at a moderate resolution. Moreover these data are offered in a format intended to facilitate their use between biogeographers and ecologists examining the effects of climate change in coastal regions.This metadata file is valid for each monthly mean SST shapefile for 09/1981 - 12/1981. Details given are for each individual file, not the comprehensive bundle of files for the year.
+    Supplemental_Information: For access to the original HDF data, please visit the NASA Physical Oceanography Distributive Active Archive Center (PO.DAAC) at http://podaac.jpl.nasa.gov/
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 09/1981
+        Ending_Time: 12/1981
+    Currentness_Reference: ground condition
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: As needed
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate:
+      East_Bounding_Coordinate:
+      North_Bounding_Coordinate:
+      South_Bounding_Coordinate:
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: temperature
+      Theme_Keyword: SST
+      Theme_Keyword: remote sensing
+      Theme_Keyword: AVHRR
+      Theme_Keyword: Pathfinder
+      Theme_Keyword: satellite
+      Theme_Keyword: global
+      Theme_Keyword: 4 km
+      Theme_Keyword: ecoregion
+      Theme_Keyword: thermal
+      Theme_Keyword: point
+      Theme_Keyword: ocean
+      Theme_Keyword: sea surface
+      Theme_Keyword: marine
+      Theme_Keyword: text
+      Theme_Keyword: csv
+      Theme_Keyword: table
+      Theme_Keyword: tabular
+    Theme:
+      Theme_Keyword_Thesaurus: ISO_Topic_Category
+      Theme_Keyword: imageryBaseMapsEarthCover
+      Theme_Keyword: oceans
+      Theme_Keyword: biota
+    Place:
+      Place_Keyword: North Pacific
+      Place_Keyword: Pacific Ocean
+      Place_Keyword: coast
+      Place_Keyword: Gulf of Alaska
+      Place_Keyword: Aleutian
+      Place_Keyword: Vancouver
+      Place_Keyword: British Columbia
+      Place_Keyword: BC
+      Place_Keyword: Canada
+      Place_Keyword: Pacific Northwest
+      Place_Keyword: Washington
+      Place_Keyword: WA
+      Place_Keyword: Oregon
+      Place_Keyword: OR
+      Place_Keyword: California
+      Place_Keyword: CA
+      Place_Keyword: California Current System
+      Place_Keyword: Kamchatka
+      Place_Keyword: Oyashio
+      Place_Keyword: Sea of Okhotsk
+      Place_Keyword: Japan
+      Place_Keyword: Korea
+      Place_Keyword: Russia
+      Place_Keyword: China
+      Place_Keyword: Yellow Sea
+      Place_Keyword: Kuroshio
+      Place_Keyword: North America
+      Place_Keyword: East Asia
+      Place_Keyword: Pacific coast
+      Place_Keyword: East Asia
+      Place_Keyword: Asian Pacific
+      Place_Keyword: Baja
+    Stratum:
+      Stratum_Keyword: surface
+    Temporal:
+      Temporal_Keyword: 1981
+      Temporal_Keyword: September
+      Temporal_Keyword: October
+      Temporal_Keyword: November
+      Temporal_Keyword: December
+  Access_Constraints: None
+  Use_Constraints:
+    Not intended for analyses at all scales.
+    Acknowledgment of the U.S. Geological Survey Western Fisheries Research Center would be appreciated in products derived from these data.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: USGS Western Fisheries Research Center and US EPA Western Ecology Division, Pacific Coastal Ecology Branch
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: USGS Western Fisheries Research Center: Newport Duty Station
+        Address: 2111 S.E. Marine Science Dr.
+        City: Newport
+        State_or_Province: OR
+        Postal_Code: 97365
+        Country: USA
+      Contact_Voice_Telephone: 541-867-4045
+      Contact_Facsimile_Telephone: 541-867-4049
+      Contact_Electronic_Mail_Address: dreusser@usgs.gov
+      Hours_of_Service: M-F: 8-5 PST
+  Data_Set_Credit: Data are derivatives of the AVHRR Pathfinder version 5.0 and 5.1 datasets developed by the NOAA National Oceanographic Data Center (NODC) and the University of Miami's Rosenstiel School of Marine and Atmospheric Science (RSMAS).
+  Native_Data_Set_Environment: Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: No tests for attribute accuracy have been performed on this map layer.
+  Logical_Consistency_Report: No rigorous tests of attribute accuracy have been performed on this data set. For information on accuracy assessment of satellite SST measurements, see the 4 km Pathfinder Version 5.0 User Guide at http://www.nodc.noaa.gov/sog/pathfinder4km/userguide.html
+  Completeness_Report:
+    Missing data value = -9999.
+    Puget Sound excluded. 
+    2010 data not yet available.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Kearns, Edward
+          Originator: Casey, Kenneth
+          Originator: Vazquez-Cuervo, Jorge
+          Publication_Date: 2004
+          Title: AVHRR Oceans Pathfinder Sea Surface Temperature Data Sets
+          Geospatial_Data_Presentation_Form: Publication
+          Publication_Information:
+            Publication_Place: online
+            Publisher: NOAA National Oceanographic Data Center (NODC) AND JPL Physical Oceanography Distributed Active Archive Center (PO.DAAC)
+          Other_Citation_Details: First Revision, 1999, currently under review
+          Online_Linkage: ftp://podaac.jpl.nasa.gov/pub/documents/dataset_docs/avhrr_pathfinder_sst.html
+          Online_Linkage: ftp://data.nodc.noaa.gov/pub/data.nodc/pathfinder/Version5.0
+          Online_Linkage: ftp://podaac.jpl.nasa.gov/pub/sea_surface_temperature/avhrr/pathfinder/
+      Type_of_Source_Media: Digital File
+      Source_Citation_Abbreviation: AVHRR1
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Roberts, J. J.
+          Originator: Best, B. D.
+          Originator: Dunn, D. C.
+          Originator: Treml, E. A.
+          Originator: Halpin, P. N.
+          Publication_Date: 2010
+          Title: Marine Geospatial Ecology Tools: An integrated framework for ecological geoprocessing with ArcGIS, Python, R, MATLAB, and C++
+          Geospatial_Data_Presentation_Form: Software and Tools
+          Publication_Information:
+            Publication_Place: Durham, NC
+            Publisher: Duke University
+          Other_Citation_Details: Online publication and updates since 2007.
+          Online_Linkage: http://code.env.duke.edu/projects/mget
+      Source_Citation_Abbreviation: MGET
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Wessel, P.
+          Originator: Smith, W. H. F.
+          Publication_Date: 1996
+          Title: A Global Self-consistent, Hierarchical, High-resolution Shoreline Database
+          Geospatial_Data_Presentation_Form: Maps and Data
+          Publication_Information:
+            Publication_Place: online
+            Publisher: School of Ocean and Earth Science and Technology (SOEST), University of Hawai'i AND NOAA National Geophysical Data Center
+          Other_Citation_Details: Last update in 2010.
+          Online_Linkage: ftp://ftp.soest.hawaii.edu/pwessel/gshhs
+          Online_Linkage: http://www.ngdc.noaa.gov/mgg/shorelines/data/gshhs/
+      Source_Citation_Abbreviation: GSHHS
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Evans, B.
+          Originator: Vasquez-Cuervo, J.
+          Originator: Casey, K. S.
+          Publication_Date: 2009
+          Title: 4 km Pathfinder Version 5 User Guide
+          Geospatial_Data_Presentation_Form: Publication
+          Publication_Information:
+            Publication_Place: online
+            Publisher: NOAA National Oceanographic Data Center (NODC)
+          Online_Linkage: http://www.nodc.noaa.gov/sog/pathfinder4km/userguide.html
+      Source_Citation_Abbreviation: AVHRR2
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: MEOW Working Group
+          Publication_Date: 2007
+          Title: MEOWv2_June2007
+          Edition: Version 2
+          Geospatial_Data_Presentation_Form: Maps and Data
+          Publication_Information:
+            Publication_Place: online
+            Publisher: Conserveonline
+          Online_Linkage: http://conserveonline.org/workspaces/ecoregional.shapefile/
+      Source_Citation_Abbreviation: MEOW
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Ripley, Brian
+          Originator: Lapsley, Michael: from 1999 to Oct 2002
+          Publication_Date: 200707
+          Title: RODBC: ODBC Database Access
+          Edition: 1.3-2
+          Geospatial_Data_Presentation_Form: Software and Tools
+          Publication_Information:
+            Publication_Place: online
+            Publisher: The Comprehensive R Archive Network (CRAN)
+          Online_Linkage: http://cran.r-project.org/web/packages/RODBC/index.html
+      Source_Time_Period_of_Content:
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: RODBC
+    Process_Step:
+      Process_Description: Downloaded SST data in HDF from NODC and NASA PO.DAAC
+      Source_Used_Citation_Abbreviation: AVHRR1
+      Source_Used_Citation_Abbreviation: AVHRR2
+    Process_Step:
+      Process_Description: Manually renamed HDF files to make them suitable for import into ArcGIS.
+    Process_Step:
+      Process_Description: Used Marine Geospatial Ecology Tools (MGET) package within ArcGIS to convert SST and associated quality flag files in HDF into ArcGIS GRID files.
+      Source_Used_Citation_Abbreviation: MGET
+    Process_Step:
+      Process_Description: Performed Map Algebra to scale SST data according to equation provided in data header.
+      Source_Used_Citation_Abbreviation: AVHRR1
+      Source_Used_Citation_Abbreviation: AVHRR2
+    Process_Step:
+      Process_Description: Used Spatial Analyst Extention on quality flag files to create a mask containing pixels with quality values of 4 and greater.
+    Process_Step:
+      Process_Description: Applied quality mask to each corresponding SST GRID using the ArcGIS Spatial Analyst "Extract by Mask" function.
+    Process_Step:
+      Process_Description: Used raster calculator to eliminate temperature values of < -2.0 degrees Celsius from the high-quality GRIDs.
+    Process_Step:
+      Process_Description: Created a buffer shapefile by using ArcToolbox Buffer tool to isolate a region from the coastline out to ~16 km (i.e. 4 pixel widths) of shoreline as defined by the Global Self-consistent, Hierarchical, High-resolution Shoreline.
+      Source_Used_Citation_Abbreviation: GSHHS
+    Process_Step:
+      Process_Description: Clipped one high-quality raster with the Nearshore Buffer shapefile to yield a nearshore raster dataset.
+    Process_Step:
+      Process_Description: Used ArcGIS editor tools to manually clean up the nearshore point shapefile created in the previous step to constrain the file to about 4 pixels off of the shoreline as defined by GSHHS. This creates a generic nearshore point shapefile for use in extracting SST values from the global SST rasters.
+      Source_Used_Citation_Abbreviation: GSHHS
+    Process_Step:
+      Process_Description: Used ArcGIS Spatial Analyst "Extract Values to Points" function to extract nearshore SST values from the centroids of the North Pacific SST rasters using the generic nearshore points shapefile created in the previous step.
+    Process_Step:
+      Process_Description: Used "Add XY Coordinates" ArcToolbox (Data Management Tools) tool to add latitude and longitude information to the Attributes table of each nearshore SST point shapefile.
+    Process_Step:
+      Process_Description: Used the ArcToolbox (Data Management Tools) "Add Join" tool to add a spatial join with The Nature Conservancy Marine Ecoregions of the World (MEOW) spatial data, giving each Nearshore SST point the attributes of the MEOW in which it is located.
+      Source_Used_Citation_Abbreviation: MEOW
+    Process_Step:
+      Process_Description: Used R scripting language and the RODBC R package to transform shapefile attribute tables (.dbf) into .csv files (one .csv per table).
+      Source_Used_Citation_Abbreviation: RODBC
+    Process_Step:
+      Process_Description: Dataset copied.
+      Source_Used_Citation_Abbreviation: D:\GISdata\North_Pacific\Temperate_N_Pac\Nov2010_csv\NPac_csv_metadata_1982
+      Process_Date: 20101203
+      Process_Time: 11073900
+Spatial_Data_Organization_Information:
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Geographic:
+    Geodetic_Model:
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Mean Monthly Sea Surface Temperature (SST) at point
+      Entity_Type_Definition: The monthly-averaged SST in degrees C for the point, which represents the centroid of the grid cell value in the corresponding SST raster.
+    Attribute:
+      Attribute_Label: POINTID
+      Attribute_Definition: Internal sequence number generated by ArcMap for the associated shapefile.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: POINT_X
+      Attribute_Definition: Longitude
+      Attribute_Definition_Source: U.S. Geological Survey
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: -178.9
+          Range_Domain_Maximum: 179.8
+          Attribute_Units_of_Measure: Decimal Degrees
+    Attribute:
+      Attribute_Label: POINT_Y
+      Attribute_Definition: Latitude
+      Attribute_Definition_Source: U.S. Geological Survey
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 20.4
+          Range_Domain_Maximum: 63.2
+          Attribute_Units_of_Measure: Decimal Degrees
+    Attribute:
+      Attribute_Label: ECO_CODE
+      Attribute_Definition: Numerical code ascribed to each marine ecoregion as defined by MEOW
+      Attribute_Definition_Source: The Nature Conservancy
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Numeric codes that identify Marine Ecoregions of the World (MEOW)
+          Codeset_Source: The Nature Conservancy
+    Attribute:
+      Attribute_Label: ECOREGION
+      Attribute_Definition: Name corresponding to the marine ecoregion as defined in MEOW
+      Attribute_Definition_Source: The Nature Conservancy
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: The Nature Conservancy official names for Marine Ecoregions of the World (MEOW).
+    Attribute:
+      Attribute_Label: PROV_CODE
+      Attribute_Definition: Numerical code ascribed to each marine province as defined by MEOW
+      Attribute_Definition_Source: The Nature Conservancy
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Numeric codes that identify Marine Ecoregions of the World (MEOW) Provinces
+          Codeset_Source: The Nature Conservancy
+    Attribute:
+      Attribute_Label: PROVINCE
+      Attribute_Definition: Name corresponding to the marine province as defined in MEOW
+      Attribute_Definition_Source: The Nature Conservancy
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: The Nature Conservancy official names for Marine Ecoregions of the World (MEOW) Provinces.
+    Attribute:
+      Attribute_Label: RLM_CODE
+      Attribute_Definition: Numerical code ascribed to each marine realm as defined by MEOW
+      Attribute_Definition_Source: The Nature Conservancy
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Numeric codes that identify Marine Ecoregions of the World (MEOW) Realms
+          Codeset_Source: The Nature Conservancy
+    Attribute:
+      Attribute_Label: REALM
+      Attribute_Definition: Name corresponding to the marine realm as defined in MEOW
+      Attribute_Definition_Source: The Nature Conservancy
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: The Nature Conservancy official names for Marine Ecoregions of the World (MEOW) Realms.
+    Attribute:
+      Attribute_Label: ALT_CODE
+      Attribute_Definition: Legacy attribute originating from spatial join with MEOW - Not Used
+      Attribute_Definition_Source: The Nature Conservancy
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: N/A
+          Codeset_Source: The Nature Conservancy
+    Attribute:
+      Attribute_Label: ECO_CODE_X
+      Attribute_Definition: Legacy attribute originating from spatial join with MEOW - Not Used
+      Attribute_Definition_Source: The Nature Conservancy
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: N/A
+          Codeset_Source: The Nature Conservancy
+    Attribute:
+      Attribute_Label: REGIONCODE
+      Attribute_Definition: Unique numeric code ascribed to MEOW region
+      Attribute_Definition_Source: U.S. Geological Survey
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Region Code
+          Codeset_Source: US Geological Survey
+    Attribute:
+      Attribute_Label: REGION
+      Attribute_Definition: Unique name defining MEOW region
+      Attribute_Definition_Source: U.S. Geological Survey
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Names for Marine Ecoregions of the World (MEOW) regions.
+    Attribute:
+      Attribute_Label: REGIONABR
+      Attribute_Definition: 3 letter-unique abbreviation for MEOW region.
+      Attribute_Definition_Source: U.S. Geological Survey
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: 3-letter abbreviation for Marine Ecoregions of the World (MEOW) regions.
+    Attribute:
+      Attribute_Label: RASTERVALU
+      Attribute_Definition: Sea Surface Temperature (SST)
+      Attribute_Definition_Source: U.S. Geological Survey
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: -2
+          Range_Domain_Maximum: 35
+          Attribute_Units_of_Measure: Degrees Celsius
+  Overview_Description:
+    Entity_and_Attribute_Overview: Data include Marine Ecoregion of the World (MEOW) classifications at each point.
+    Entity_and_Attribute_Detail_Citation: MEOW classifications defined by The Nature Conservancy: http://www.nature.org/tncscience/news/meow.html
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: U.S. Geological Survey Western Fisheries Research Center
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: USGS Western Fisheries Research Center: Newport Duty Station
+        Address: 2111 SE Marine Science Dr
+        City: Newport
+        State_or_Province: OR
+        Postal_Code: 97365
+        Country: USA
+      Contact_Voice_Telephone: 541-867-4045
+      Contact_Facsimile_Telephone: 541-867-4049
+      Contact_Electronic_Mail_Address: dreusser@usgs.gov
+  Resource_Description: Downloadable Data
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: CSV
+        Transfer_Size: 1.3 MB zipped file
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: http://nccwsc.usgs.gov/data/near_shore_sst/csv/
+              Network_Resource_Name: http://pubs.usgs.gov/of/2010/1251/index.html
+    Fees: no cost
+    Ordering_Instructions: Databases are available for download through the URLs provided here.
+Metadata_Reference_Information:
+  Metadata_Date: 20101203
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: USGS Western Fisheries Research Center and US EPA Western Ecology Division, Pacific Coastal Ecology Branch
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: USGS Western Fisheries Research Center: Newport Duty Station
+        Address: 2111 SE Marine Science Dr
+        City: Newport
+        State_or_Province: OR
+        Postal_Code: 97365
+        Country: USA
+      Contact_Voice_Telephone: 541-867-5022
+      Contact_Facsimile_Telephone: 541-867-4049
+      Contact_Electronic_Mail_Address: dreusser@usgs.gov
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Security_Information:
+    Metadata_Security_Classification_System: None
+    Metadata_Security_Classification: Unclassified
+    Metadata_Security_Handling_Description: None
